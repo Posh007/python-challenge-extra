@@ -1,11 +1,8 @@
-# -*- coding: UTF-8 -*-
-"""PyBoss Homework Solution."""
-
-# Import required packages
+# Import Dependencies
 import csv
 import os
 
-# Files to load and output (Remember to change these)
+# Files to load and output
 file_to_load = os.path.join("raw_data", "employee_data.csv")
 file_to_output = os.path.join("analysis", "employee_data_reformatted.csv")
 
